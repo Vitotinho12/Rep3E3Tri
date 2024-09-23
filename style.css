@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+:root{
+    font-family: "SUSE", sans-serif;
+    --bg-color: #222831;
+    --primary-color: #DDDDDD;
+    --secundary-color: #F05454;
+}
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+header{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1px;
+}
+
+nav{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+h1{
+    color:black ;
+    font-size: 40px;
+}
+nav a{
+    text-decoration: none;
+    margin: 0rem 2rem 3rem 0rem;
+    font-size:15px;
+    color:black;
+}
+a:hover{
+    background-color:var(--bg-color);
+    color:white;
+}
